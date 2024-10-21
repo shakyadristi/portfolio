@@ -16,7 +16,7 @@ const About = () => {
         >
           <div className="md:w-1/2">
             <Image
-              src="https://source.unsplash.com/random/600x600?portrait"
+              src="./drishti.jpeg"
               alt="Dristi Shakya"
               width={600}
               height={600}
