@@ -16,7 +16,7 @@ const About = () => {
         >
           <div className="md:w-1/2">
             <Image
-              src="./drishti.jpeg"
+              src="./dristi.jpg"
               alt="Dristi Shakya"
               width={600}
               height={600}
