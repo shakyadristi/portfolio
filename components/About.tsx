@@ -12,14 +12,14 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="flex flex-col md:flex-row items-center gap-12"
+          className="flex flex-col md:flex-row items-center gap-15"
         >
           <div className="md:w-1/2">
             <Image
-              src="https://source.unsplash.com/random/600x600?portrait"
+              src="./dristi.jpg"
               alt="Dristi Shakya"
-              width={600}
-              height={600}
+              width={400}
+              height={400}
               className="rounded-lg shadow-lg"
             />
           </div>

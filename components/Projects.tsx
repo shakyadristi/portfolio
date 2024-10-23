@@ -8,24 +8,24 @@ import { ExternalLink } from 'lucide-react'
 
 const projects = [
   {
-    title: "E-commerce Platform QA",
+    title: "Merojob Website",
     description: "Conducted comprehensive testing for a large-scale e-commerce platform, ensuring smooth user experience and transaction processing.",
-    image: "https://source.unsplash.com/random/800x600?ecommerce",
+    image: "./merojobweb.png",
     tags: ["Manual Testing", "API Testing", "User Acceptance Testing"],
     caseStudyUrl: "#"
   },
   {
-    title: "Mobile Banking App Testing",
+    title: "Merojob App",
     description: "Led the QA efforts for a mobile banking application, focusing on security, performance, and usability across multiple devices.",
-    image: "https://source.unsplash.com/random/800x600?banking",
+    image: "./merojobapp.png",
     tags: ["Mobile Testing", "Security Testing", "Performance Testing"],
     caseStudyUrl: "#"
   },
   {
-    title: "Healthcare Management System",
+    title: "Rojgari Service Website",
     description: "Implemented and executed test strategies for a complex healthcare management system, ensuring data integrity and HIPAA compliance.",
-    image: "https://source.unsplash.com/random/800x600?healthcare",
-    tags: ["Regression Testing", "Compliance Testing", "Integration Testing"],
+    image: "./rojgariweb.png",
+    tags: ["Regression Testing", "Unit Testing", "Integration Testing"],
     caseStudyUrl: "#"
   }
 ]
