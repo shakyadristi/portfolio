@@ -12,7 +12,7 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="flex flex-col md:flex-row items-center gap-15"
+          className="flex flex-col md:flex-row items-center gap-4"
         >
           <div className="md:w-1/2">
             <Image
@@ -20,10 +20,10 @@ const About = () => {
               alt="Dristi Shakya"
               width={400}
               height={400}
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg m-auto"
             />
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 py-2">
             <h2 className="text-3xl font-bold mb-4">About Me</h2>
             <p className="mb-4">
               I'm Dristi Shakya, a dedicated QA/QC Engineer with a passion for ensuring software quality and reliability. 

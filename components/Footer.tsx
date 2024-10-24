@@ -7,11 +7,14 @@ const Footer = () => {
           <a href="https://github.com/dristishakya" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
             GitHub
           </a>
-          <a href="https://linkedin.com/in/dristishakya" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+          <a href="https://www.linkedin.com/in/dristi-shakya-b92871290/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
             LinkedIn
           </a>
-          <a href="https://twitter.com/dristishakya" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
-            Twitter
+          <a href=" https://www.facebook.com/dibu.shakya" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            Facebook
+          </a>
+          <a href=" https://www.instagram.com/dristi.shakya/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+            Instagram
           </a>
         </div>
       </div>

@@ -12,21 +12,21 @@ const projects = [
     description: "Conducted comprehensive testing for a large-scale e-commerce platform, ensuring smooth user experience and transaction processing.",
     image: "./merojobweb.png",
     tags: ["Manual Testing", "API Testing", "User Acceptance Testing"],
-    caseStudyUrl: "#"
+    caseStudyUrl: "https://merojob.com/"
   },
   {
     title: "Merojob App",
     description: "Led the QA efforts for a mobile banking application, focusing on security, performance, and usability across multiple devices.",
     image: "./merojobapp.png",
     tags: ["Mobile Testing", "Security Testing", "Performance Testing"],
-    caseStudyUrl: "#"
+    caseStudyUrl: "https://play.google.com/store/apps/details?id=com.merojob.merojobapp&hl=en"
   },
   {
     title: "Rojgari Service Website",
     description: "Implemented and executed test strategies for a complex healthcare management system, ensuring data integrity and HIPAA compliance.",
     image: "./rojgariweb.png",
     tags: ["Regression Testing", "Unit Testing", "Integration Testing"],
-    caseStudyUrl: "#"
+    caseStudyUrl: "https://rojgari.com/"
   }
 ]
 
@@ -60,7 +60,7 @@ const Projects = () => {
                 <CardFooter>
                   <Button asChild size="sm">
                     <a href={project.caseStudyUrl} target="_blank" rel="noopener noreferrer">
-                      <ExternalLink className="mr-2 h-4 w-4" /> View Case Study
+                      <ExternalLink className="mr-2 h-4 w-4" /> Visit
                     </a>
                   </Button>
                 </CardFooter>
