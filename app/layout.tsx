@@ -1,12 +1,14 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { DynaPuff, Josefin_Sans, Poppins
+} from 'next/font/google'
 import { ThemeProvider } from "@/components/theme-provider"
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import { Toaster } from "@/components/ui/toaster"
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Poppins
+({ weight:'400', subsets: ['latin']  })
 
 export const metadata: Metadata = {
   title: 'Dristi Shakya - Web Developer Portfolio',
@@ -44,7 +46,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={roboto.className}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

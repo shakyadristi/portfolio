@@ -27,6 +27,13 @@ const projects = [
     image: "./rojgariweb.png",
     tags: ["Regression Testing", "Unit Testing", "Integration Testing"],
     caseStudyUrl: "https://rojgari.com/"
+  },
+  {
+    title: "Rojgari APP",
+    description: "Led the QA efforts for a mobile banking application, focusing on security, performance, and usability across multiple devices.",
+    image: "./rojgariapp.jpg",
+    tags: ["Mobile Testing", "Security Testing", "Performance Testing"],
+    caseStudyUrl: "https://play.google.com/store/apps/details?id=com.rojgaripasal.rojgariapp&hl=en"
   }
 ]
 
@@ -35,7 +42,7 @@ const Projects = () => {
     <section id="projects" className="py-20">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-8 text-center">Project Highlights</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 w-[80%] m-auto">
           {projects.map((project, index) => (
             <motion.div
               key={index}

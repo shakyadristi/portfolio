@@ -95,7 +95,7 @@ const Contact = () => {
                   </FormItem>
                 )}
               />
-              <Button type="submit" className="w-full" disabled={isSubmitting}>
+              <Button type="submit" className="bg-black w-full text-white rounded hover:bg-gray-800 hover:text-white hover:rounded" disabled={isSubmitting}>
                 {isSubmitting ? "Sending..." : "Send Message"}
               </Button>
             </form>
